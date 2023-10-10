@@ -9,6 +9,13 @@ echo "# git-commands" >> README.md
 - git push -u origin main
 
 ## push an existing repository from the command line
-git remote add origin https://github.com/javatrainingms/git-commands.git
-git branch -M main
-git push -u origin main
+- git remote add origin https://github.com/javatrainingms/git-commands.git
+- git branch -M main
+- git push -u origin main
+
+
+## after code commit into main branch 
+- git add .
+- git commit -m "second branch"
+- git push -u origin main
+
